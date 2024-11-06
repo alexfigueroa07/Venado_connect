@@ -1,0 +1,81 @@
+.home-container {
+    display: flex;
+    height: 100%;
+}
+
+.home-sidebar {
+    width: 300px;
+    background-color: #f4f4f4;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+    padding: 10px;
+}
+
+.home-main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-main {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.home-left,
+.home-right {
+    flex: 1;
+}
+
+.home-left {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-right iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.home-footer {
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+}
+
+/* Styles for the Post component */
+.post-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.post-container h2 {
+    margin-top: 0;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-post-container button:hover {
+    background-color: #218838;
+}
+
+.new-post-container button:active {
+    background-color: #1e7e34;
+}
